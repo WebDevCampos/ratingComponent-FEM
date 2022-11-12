@@ -134,7 +134,8 @@ button:hover {
 }
 
 .selected-result {
-  background-color: var(--medium-grey);
+  box-shadow: 0 0 100rem var(--light-grey);
+  background-color: var(--dark-blue);
   color: var(--orange);
   border-radius: 1.5rem;
   padding: 0.5rem 1rem;

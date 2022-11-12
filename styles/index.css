@@ -20,7 +20,7 @@ body {
 }
 main {
   max-width: 37.5rem;
-  height: 35rem;
+  height: 38rem;
   background: radial-gradient(
     at top right,
     var(--dark-blue),

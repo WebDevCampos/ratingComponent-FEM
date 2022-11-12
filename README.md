@@ -9,10 +9,9 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with) 
+  - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
 
 ## Overview
 
@@ -43,10 +42,16 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-
 ### Useful resources
+
 Every time, I need to look at this, in order to make a flip card.
-- [Flip Card Example](https://www.w3schools.com/howto/howto_css_flip_card.asp) 
+
+- [Flip Card Example](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+
+  **Always** check this site:
+
+- [CSS Tricks](https://css-tricks.com/)
+
 ## Author
 
 - Frontend Mentor - [@WebDevCampos](https://www.frontendmentor.io/profile/WebDevCampos)

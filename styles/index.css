@@ -76,6 +76,7 @@ form {
   transform: rotateX(0deg);
 }
 .card-front {
+  width: 90%;
   margin: 0 50%;
   transform: translateX(-50%);
 }
@@ -83,7 +84,6 @@ form {
 .card-back {
   width: 100%;
   text-align: center;
-
   transform: rotateY(180deg);
 }
 .card-back img {
@@ -130,6 +130,12 @@ input[type="radio"]:checked + label {
 .rating-values label:hover,
 button:hover {
   cursor: pointer;
+}
+
+.selected-result {
+  background-color: var(--light-grey);
+  color: var(--orange);
+  border-radius: 1rem;
 }
 .attribution {
   font-size: 1.1rem;

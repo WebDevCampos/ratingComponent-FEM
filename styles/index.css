@@ -20,8 +20,7 @@ body {
 }
 main {
   max-width: 37.5rem;
-  height: 30rem;
-
+  height: 35rem;
   background: var(--dark-blue);
   padding: 1rem;
   border-radius: 1.5rem;
@@ -32,9 +31,12 @@ main {
 footer {
   max-width: 37.5rem;
 }
-h1 {
+h1,
+h2 {
   color: var(--white);
   font-weight: 700;
+}
+h1 {
   font-size: clamp(3rem, 3vw, 3.2rem);
 }
 p {
@@ -43,18 +45,11 @@ p {
 }
 h1,
 p {
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 form {
-  margin: 2rem 0 0;
+  margin: 3rem 0 0;
 }
-/* main:hover .inner-card {
-  transform: rotateY(180deg);
-} */
-
-/* main:hover .card-front {
-  display: none;
-} */
 .inner-card {
   width: 37.5rem;
   margin: 2% auto;
@@ -69,7 +64,6 @@ form {
 .card-front,
 .card-back {
   position: absolute;
-
   height: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -82,6 +76,9 @@ form {
 }
 
 .card-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   text-align: center;
   transform: rotateY(180deg);
@@ -94,7 +91,7 @@ form {
   border-radius: 50%;
   width: 1.5rem;
   height: 1.5rem;
-  box-shadow: 0 0 3rem var(--very-dark-blue);
+  background-color: var(--medium-grey);
 }
 
 .rating-values {
@@ -111,7 +108,7 @@ form {
   padding: 0.5rem;
   display: inline-grid;
   place-items: center;
-  font-size: clamp(2.2rem, 1.4vw, 2rem);
+  font-size: clamp(2.2rem, 1.4vw, 3rem);
 }
 button {
   width: 100%;
@@ -133,9 +130,18 @@ button:hover {
 }
 
 .selected-result {
-  background-color: var(--light-grey);
+  background-color: var(--medium-grey);
   color: var(--orange);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  font-weight: 700;
+}
+
+.card-front p,
+.appreciate {
+  line-height: 2;
+  margin: 2rem 0;
 }
 .attribution {
   font-size: 1.1rem;

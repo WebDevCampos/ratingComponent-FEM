@@ -58,8 +58,8 @@ form {
 .inner-card {
   width: 37.5rem;
   margin: 2% auto;
-  flex-flow: column;
   display: flex;
+  flex-flow: column;
   justify-content: space-between;
   position: relative;
   transition: transform 0.5s;
@@ -69,14 +69,25 @@ form {
 .card-front,
 .card-back {
   position: absolute;
-  width: 100%;
+
   height: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transform: rotateX(0deg);
 }
+.card-front {
+  margin: 0 50%;
+  transform: translateX(-50%);
+}
+
 .card-back {
+  width: 100%;
+  text-align: center;
+
   transform: rotateY(180deg);
+}
+.card-back img {
+  max-width: 50%;
 }
 .star {
   padding: 1rem;
